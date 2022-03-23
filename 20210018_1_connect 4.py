@@ -110,7 +110,7 @@ WINDOW.fill(WHITE)  # give the screen white colour
 pygame.display.set_caption("CONNECT 4")
 
 BACKGROUND = pygame.image.load(os.path.join(
-    'CS112_A1_20210017_20210018_20210161', 'bonus', '20210018_background.png'))
+    'connect4_pygame', '20210018_background.png'))
 # please put code file with the image
 # and if put them in folder write folder name in the code before 'background.png'
 # as if folder name is (assignment 1) edit code to (BACKGROUND = pygame.image.load(os.path.join('assignment 1', '20210018_background.png')) )
