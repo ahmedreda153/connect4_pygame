@@ -94,7 +94,7 @@ def draw_coins(board):
 def write_on_window(text, z):
     font = pygame.font.SysFont("comicsans", FONT_SIZE)
     draw_text = font.render(text, 1, BLACK)
-    WINDOW.blit(draw_text, (z, 25))
+    WINDOW.blit(draw_text, (z,  25))
 
 
 pygame.init()
